@@ -1,0 +1,58 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# Docker Volumes & Data
+esdata*/
+kibanadata*/
+metricbeatdata*/
+filebeatdata*/
+logstashdata*/
+fleetserverdata*/
+certs/
+
+# Logs
+*.log
+logs/
+ingest_data/*.log
+ingest_data/*.csv
+
+# Backup Files
+backups/
+snapshots/
+*.backup
+*.bak
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*~
+
+# IDE Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Desktop.ini
+
+# Certificate Files (generated)
+*.crt
+*.key
+*.pem
+*.p12
+*.jks
+ca.zip
+certs.zip
+instances.yml
